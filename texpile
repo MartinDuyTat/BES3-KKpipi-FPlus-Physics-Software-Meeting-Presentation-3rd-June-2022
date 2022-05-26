@@ -1,0 +1,4 @@
+#!/bin/bash
+f=BES3KKpipiFPlusPhysicsSoftwareMeetingPresentation3rdJune2022.tex
+pdflatex $f && pdflatex $f
+rm *.aux *.log *.nav *.out *.snm *.toc
