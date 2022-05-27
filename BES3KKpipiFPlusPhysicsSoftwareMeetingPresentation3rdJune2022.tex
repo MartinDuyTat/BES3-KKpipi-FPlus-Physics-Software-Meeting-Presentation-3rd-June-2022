@@ -73,12 +73,14 @@
   \begin{itemize}
     \setlength\itemsep{1.5em}
     \item{Perform strong-phase analysis of $D^0\to K^+K^-\pi^+\pi^-$}
-    \item{This analysis: Phase space integrated analysis of $\SI{2.93}{\per\femto\barn}$ $\psi(3770)$ data}
+    \item{This analysis: Phase space integrated analysis}
     \begin{itemize}
+      \item{$\SI{2.93}{\per\femto\barn}$ $\psi(3770)$ data from 2010-2011}
       \item{Measure CP even fraction $F_+$}
     \end{itemize}
-    \item{Future analysis: Binned phase space analysis of future $\approx\SI{20}{\per\femto\barn}$ $\psi(3770)$ data}
+    \item{Future analysis: Binned phase space analysis}
     \begin{itemize}
+      \item{Expect $\approx\SI{20}{\per\femto\barn}$ $\psi(3770)$ data from 2010-2011 and 2022-2023}
       \item{Measure amplitude-averaged cosine and sine of strong-phase $c_i$ and $s_i$}
     \end{itemize}
   \end{itemize}
@@ -89,7 +91,7 @@
     \setlength\itemsep{0.5em}
     \item{Main motivation: Measure $\gamma$ in $B^\pm\to DK^\pm$ with self-conjugate multi-body $D$ decay}
     \begin{itemize}
-      \item{Model independent measurement: Split events into bins of $D$ phase space}
+      \item{Model independent measurement: Bins of $D$ decay phase space}
       \item{External inputs: Measure $c_i$ and $s_i$ at BESIII}
       \item{Poor binning reduces statistical sensitivity $\to$ No bias!}
     \end{itemize}
@@ -107,14 +109,12 @@
 \begin{frame}{Introduction to GGSZ analysis of $\gamma$}
   \begin{itemize}
     \setlength\itemsep{0.5em}
-    \item{Our aim: Analyse $B^\pm\to[K^+K^-\pi^+\pi^-]_D h^\pm$ in bins of phase space at LHCb}
+    \item{Our aim: Analyse $B^\pm\to[K^+K^-\pi^+\pi^-]_D h^\pm$ in bins of phase space}
     \begin{itemize}
-    \setlength\itemsep{0.2em}
+    \setlength\itemsep{0.5em}
       \item{Develop binning scheme using LHCb model \href{https://arxiv.org/abs/1811.08304}{JHEP 02 (2019) 126}}
       \item{Simultaneously analyse $c_i$/$s_i$ at BESIII and $\gamma$ at LHCb}
-      \begin{itemize}
-        \item{Expected precision $\Delta\gamma\approx 12^\circ$ with LHCb Run\,1+2}
-      \end{itemize}
+      \item{Expected precision $\Delta\gamma\approx 12^\circ$ with LHCb Run\,1+2}
     \end{itemize}
   \end{itemize}
   \begin{figure}
@@ -132,6 +132,37 @@
     \caption{Binning scheme for $D^0\to K^+K^-\pi^+\pi^-$}
   \end{figure}
 \end{frame}
+
+\begin{frame}{Introduction to $D$ mixing and CP-violation}
+  \begin{itemize}
+    \setlength\itemsep{0.0em}
+    \item{$D\to KK\pi\pi$ can also be used to study $D$-mixing}
+    \item{Phase space integrated analysis:}
+    \begin{itemize}
+      \item{\href{https://arxiv.org/abs/1502.04560}{Physical Review D, 91(9), 2015}}
+      \item{Measure mixing parameter $y_{\rm CP}$ and CP-violation parameter $A_\Gamma$ in self-conjugate multi-body decays}
+    \end{itemize}
+    \item{Analysis in bins of phase space:}
+    \begin{itemize}
+      \item{\href{https://arxiv.org/abs/2106.03744}{Phys. Rev. Lett. 127, 111801 (2021)}}
+      \item{Bin-flip analysis of $D\to K_S\pi\pi$}
+      \item{Measure mixing parameters $x$, $y$ and CP-violation parameters $|q/p|$, $\varphi$}
+    \end{itemize}
+  \end{itemize}
+  \begin{figure}
+    \centering
+    \begin{subfigure}{0.35\textwidth}
+      \centering
+      \includegraphics[width=1.0\textwidth]{Plots/fig_plot_xy2d.pdf}
+    \end{subfigure}
+    \hspace{1.5cm}
+    \begin{subfigure}{0.33\textwidth}
+      \centering
+      \includegraphics[width=1.0\textwidth]{Plots/D0OscArt.png}
+    \end{subfigure}
+  \end{figure}
+\end{frame}
+
 
 \begin{frame}{Motivation for $F_+$ measurement}
   \begin{itemize}
@@ -165,10 +196,9 @@
   \begin{enumerate}
     \setlength\itemsep{0.5em}
     \item{Select double tags of $KK\pi\pi$ vs flavour, CP and self-conjugate tags}
-    \item{Normalise double tag yields by the corresponding single tag yields}6za
+    \item{Normalise double tag yields by the corresponding single tag yields}
     \item{Measure flavour tag yields $K_i$}
-    \item{Measure $c_i$ with CP tags:}
-    \item{Measure $c_i$+$s_i$ with self-conjugate tags}
+    \item{Fit $c_i$ with CP tags and $c_i$+$s_i$ with self-conjugate tags:}
   \end{enumerate}
   \begin{block}{$c_i$/$s_i$ analysis: Bins of $KK\pi\pi$ phase space}
     CP: $M_i\propto\big(K_i + K_{-i} - 2c_i\sqrt{K_iK_{-i}}(2F_+^{\rm tag} - 1)\big)$ \\
@@ -312,7 +342,7 @@
       $K_S\omega$                       & $22068 \pm 217$      & $14.50 \pm 0.08$     \\
       \hline
       $K_S\pi^+\pi^-$                   & $161914 \pm 440$     & $36.40 \pm 0.11$     \\
-      $K_S\pi^+\pi^-$ part. reco.       & $161899 \pm 440$     & $33.56 \pm 0.26$     \\
+      $K_S\pi^+\pi^-$ part. reco.       & $161914 \pm 440$     & $36.40 \pm 0.11$     \\
       $K_L\pi^+\pi^-$                   & $223141 \pm 2146$    & $46.1 \pm 0.3$       \\
       \hline
     \end{tabular}
@@ -325,12 +355,16 @@
 \begin{frame}{Double tag fits}
   \begin{itemize}
     \setlength\itemsep{1.0em}
-    \item{Fit strategy: Only fit signal side $m_{\rm BC}$ because of low statistics}
+    \item{Fit strategy:}
+    \begin{itemize}
+      \item{Fully reconstructed tags: Only fit signal $m_{\rm BC}$ because of low statistics}
+      \item{Partially reconstructed tags: Fit missing mass squared $m^2_{\rm miss}$}
+    \end{itemize}
     \item{Fit model:}
     \begin{itemize}
       \item{Signal: PDF from signal MC, convoluted with single Gaussian}
       \item{Background: Argus PDF}
-      \item{Peaking backgrounds fixed, with quantum correlated accounted for}
+      \item{Peaking backgrounds fixed, with quantum correlation accounted for}
       \item{Simple sideband subtraction for correct signal but wrong tag event}
     \end{itemize}
     \item{For tags with multiple bins, perform a simultaneous fit of all bins}
@@ -455,12 +489,12 @@
 
 \subsection{\texorpdfstring{$K_{S, L}\pi\pi$}{K0pipi} tags}
 
-\begin{frame}{$F_+$ measurement with $K_S\pi\pi$ tag}
+\begin{frame}{$F_+$ measurement with $K_{S, L}\pi\pi$ tags}
   \begin{itemize}
     \item{With $K_S\pi\pi$, increase sensitivity through binning of $K_S\pi\pi$ phase space}
   \end{itemize}
   \begin{center}
-    $M_j\propto\big(K^\prime_j + K^\prime_{-j} - 2\sqrt{K^\prime_jK^\prime_{-j}}c^\prime_j(2F_+^{KK\pi\pi - 1})\big)$
+    $M_j\propto\big(K^\prime_j + K^\prime_{-j} - 2\sqrt{K^\prime_jK^\prime_{-j}}c^\prime_j(2F_+^{KK\pi\pi} - 1)\big)$
   \end{center}
   \begin{itemize}
     \item{Problem: $KK\pi\pi$ reconstruction efficiency is too low $\to$ Low yields!}
@@ -473,7 +507,7 @@
   \end{itemize}
 \end{frame}
 
-\begin{frame}{$F_+$ measurement with $K_S\pi\pi$ tag}
+\begin{frame}{$F_+$ measurement with $K_{S, L}\pi\pi$ tags}
   \begin{itemize}
     \setlength\itemsep{1.0em}
     \item{Solution: Partially reconstructed $KK\pi\pi$}
@@ -490,9 +524,9 @@
   \begin{tabular}{lcc}
     Mode                                     & Inclusive yield  & Double tag efficiency \\
     \hline
-    $K_S\pi\pi$ (fully reconstructed)        & $\SI{69(9)}{}$   & $\SI{7.60(4)}{}$ \\
-    $K_S\pi\pi$ (partially reconstructed)    & $\SI{91(15)}{}$  & $\SI{6.38(4)}{}$ \\
-    $K_L\pi\pi$ (partially reconstructed)    & $\SI{158(15)}{}$ & $\SI{8.77(4)}{}$ \\
+    $K_S\pi\pi$ (fully reconstructed)        & $\SI{69(9)}{}$   & $\SI{6.56(4)}{}$ \\
+    $K_S\pi\pi$ (partially reconstructed)    & $\SI{91(15)}{}$  & $\SI{7.01(4)}{}$ \\
+    $K_L\pi\pi$ (partially reconstructed)    & $\SI{158(15)}{}$ & $\SI{7.25(4)}{}$ \\
     \hline
   \end{tabular}
 \end{frame}
@@ -529,36 +563,6 @@
     \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KSpipi_SignalBin0_TagBin7.png}
     \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KSpipi_SignalBin0_TagBin8.png}
     \caption{$KK\pi\pi$ vs $K_S\pi\pi$ simultaneous fit}
-  \end{figure}
-\end{frame}
-
-\begin{frame}{Double tag fits}
-  \begin{figure}
-    \centering
-    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KSpipiPartReco_SignalBin0_TagBin1.png}
-    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KSpipiPartReco_SignalBin0_TagBin2.png}
-    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KSpipiPartReco_SignalBin0_TagBin3.png}
-    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KSpipiPartReco_SignalBin0_TagBin4.png}
-    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KSpipiPartReco_SignalBin0_TagBin5.png}
-    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KSpipiPartReco_SignalBin0_TagBin6.png}
-    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KSpipiPartReco_SignalBin0_TagBin7.png}
-    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KSpipiPartReco_SignalBin0_TagBin8.png}
-    \caption{Partially reconstructed $KK\pi\pi$ vs $K_S\pi\pi$ simultaneous fit}
-  \end{figure}
-\end{frame}
-
-\begin{frame}{Double tag fits}
-  \begin{figure}
-    \centering
-    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KLpipi_SignalBin0_TagBin1.png}
-    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KLpipi_SignalBin0_TagBin2.png}
-    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KLpipi_SignalBin0_TagBin3.png}
-    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KLpipi_SignalBin0_TagBin4.png}
-    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KLpipi_SignalBin0_TagBin5.png}
-    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KLpipi_SignalBin0_TagBin6.png}
-    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KLpipi_SignalBin0_TagBin7.png}
-    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KLpipi_SignalBin0_TagBin8.png}
-    \caption{$KK\pi\pi$ vs $K_L\pi\pi$ simultaneous fit}
   \end{figure}
 \end{frame}
 
@@ -613,8 +617,11 @@
     \setlength\itemsep{1.0em}
     \item{First model-independent measurement of CP even fraction in $D^0\to K^+K^-\pi^+\pi^-$}
     \begin{itemize}
-      \item{$F_+ = \SI{0.73(4)}{}$}
+      \item{$F_+ = 0.730 \pm 0.040 \pm 0.017$}
+      \item{Statistics dominated!}
     \end{itemize}
+    \item{Valuable input to $\gamma$ analyses and $D$-mixing and CPV analyses}
+    \item{Future $\psi(3770)$ data will allow us to perform a binned analysis}
   \end{itemize}
   \begin{center}
     {\huge Thank you!}
@@ -627,7 +634,6 @@
   \end{center}
 \end{frame}
 
-\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
 \begin{frame}{Tag modes}
   \begin{itemize}
     \setlength\itemsep{1.0em}
@@ -649,6 +655,36 @@
     \end{itemize}
   \end{itemize}
   Underlined tags have not been finalized yet
+\end{frame}
+
+\begin{frame}{Double tag fits}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KSpipiPartReco_SignalBin0_TagBin1.png}
+    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KSpipiPartReco_SignalBin0_TagBin2.png}
+    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KSpipiPartReco_SignalBin0_TagBin3.png}
+    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KSpipiPartReco_SignalBin0_TagBin4.png}
+    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KSpipiPartReco_SignalBin0_TagBin5.png}
+    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KSpipiPartReco_SignalBin0_TagBin6.png}
+    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KSpipiPartReco_SignalBin0_TagBin7.png}
+    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KSpipiPartReco_SignalBin0_TagBin8.png}
+    \caption{Partially reconstructed $KK\pi\pi$ vs $K_S\pi\pi$ simultaneous fit}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Double tag fits}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KLpipi_SignalBin0_TagBin1.png}
+    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KLpipi_SignalBin0_TagBin2.png}
+    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KLpipi_SignalBin0_TagBin3.png}
+    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KLpipi_SignalBin0_TagBin4.png}
+    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KLpipi_SignalBin0_TagBin5.png}
+    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KLpipi_SignalBin0_TagBin6.png}
+    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KLpipi_SignalBin0_TagBin7.png}
+    \includegraphics[width=0.32\textwidth, clip = true, trim = {0 11cm 0 0}]{Plots/DoubleTagYield_DoubleTag_SCMB_KKpipi_vs_KLpipi_SignalBin0_TagBin8.png}
+    \caption{$KK\pi\pi$ vs $K_L\pi\pi$ simultaneous fit}
+  \end{figure}
 \end{frame}
 
 \begin{frame}{Peaking backgrounds}
